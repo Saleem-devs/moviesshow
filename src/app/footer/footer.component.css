@@ -1,0 +1,41 @@
+footer {
+  background: #e50914;
+}
+.foot,
+.foot2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot2 {
+  width: 60%;
+}
+.navbar-brand {
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+  width: 30%;
+}
+.copy {
+  color: #fff;
+  /* margin-bottom: 10px; */
+}
+
+@media screen and (max-width: 550px) {
+  .foot {
+    flex-direction: column;
+  }
+  .foot2,
+  .link {
+    width: 100%;
+  }
+  .foot2 {
+    margin-bottom: 20px;
+  }
+}

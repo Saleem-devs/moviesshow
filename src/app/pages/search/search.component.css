@@ -1,0 +1,34 @@
+button,
+button:hover {
+  background: #e50914;
+  color: #fff;
+}
+
+.img-cont {
+  height: 150px;
+  width: 120px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .img-cont {
+    width: 100%;
+    height: 100%;
+  }
+  img {
+    margin-bottom: 8px;
+  }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h5 {
+  color: #fff;
+}
+.search {
+  min-height: 100vh;
+}

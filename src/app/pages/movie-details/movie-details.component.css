@@ -1,0 +1,21 @@
+img {
+  width: 100%;
+  height: auto;
+}
+h1 {
+  color: #fff;
+  font-weight: bold;
+}
+p {
+  color: #fff;
+}
+a {
+  background: #e50814;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+a:hover {
+  background: #e50814;
+  color: #fff;
+  transform: scale(1.1);
+}
